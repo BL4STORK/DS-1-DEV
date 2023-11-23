@@ -1,3 +1,24 @@
-.section-left{
+#section-left{
+    position: relative;
     display: flex;
+}
+
+#section-right{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.superpose{
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+
+#img2{
+    z-index: 10;
+}
+
+#police{
+    font-family: 'Bigelow Rules', serif;
 }

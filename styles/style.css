@@ -23,6 +23,12 @@
 
 footer {
   background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer:hover {
+  color: #8B81EC;
 }
 
 .parallax {
@@ -34,8 +40,29 @@ footer {
   background-size: cover;
 }
 
-.section-left {
+#section-left {
+  position: relative;
   display: flex;
+}
+
+#section-right {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.superpose {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+
+#img2 {
+  z-index: 10;
+}
+
+#police {
+  font-family: "Bigelow Rules", serif;
 }
 
 /*# sourceMappingURL=style.css.map */
