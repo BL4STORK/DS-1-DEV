@@ -1,8 +1,9 @@
-.parallax{
+
+.parallax {
+    background-image: url("https://s3-alpha-sig.figma.com/img/b5cc/3f32/80e308f7689ada11a01e7fcdc0ad9551?Expires=1701648000&Signature=hnRbKd7d1D9OANP0uKF3WDjNJKUTwCldGJ6XUvjavySrl5574OgLcE6uMK3JXkoW0Ntv9NbMAVebRDkzuR~4wKJP1ZajQUMcIeXz3fWJ7E51P-5c8NS3JqpSEBx9O-fllktCo0sggYVc2XJcypEtoHIrxtnQeDAvkLHQqOYcdkGnMdx3Z0Q-YUjx2RNasURb18pUKPb8P12H-OT6p7NlFTUQ9v~TVyARx1jJsAAICUWszFAwIdNf1B4Zq8X0B9ci5LqPVLP7WSKB~WjWeUyzANCA~571j9APNiexhSVZ6Akkk3Tsv2-c851k651PcQ5tLvUXpzyqBZ3Q6etszpFCqw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    height: 120vh;
     background-attachment: fixed;
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("background.png");
-    height: 1200px;
-}
+    background-size: cover;
+    }
