@@ -1,3 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap");
+* {
+  color: white;
+}
 
+#top {
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#menu {
+  font-family: "Bigelow Rules", serif;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("background.png");
+  height: 1200px;
+}
 
 /*# sourceMappingURL=style.css.map */

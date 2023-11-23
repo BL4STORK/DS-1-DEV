@@ -1,0 +1,16 @@
+*{
+    color: white;
+}
+#top{
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#menu{
+    font-family: 'Bigelow Rules', serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
